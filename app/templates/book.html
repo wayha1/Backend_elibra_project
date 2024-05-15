@@ -47,7 +47,7 @@
       <td>{{ book.category.name }}</td>
       <td>{{ book.author.author_name }}</td>
       <td class="pdf-link">
-        <iframe type="pdf" src="{{ book.book_pdf }}" style="max-width: 100px"></iframe>
+        <a type="pdf" href="{{ book.book_pdf }}" style="max-width: 100px">{{ book.book_pdf }}</a>
       </td>
       <td>
         <img src="{{ book.book_image }}" alt="{{ book.book_image }}" style="max-width: 100px" />
