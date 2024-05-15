@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "skin-me",
+  "private_key_id": "d7ca653e46748149e66c74da2fda9b1b639c1841",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDe7ABbcNTXPehe\nvcFAq8xmoJ0PrcvGcRqCKdxm7QgwuJjed6oA/GXv+PBNwjb0gHhUwsW1CDv82/WL\n0MKSoZ2cbOyg0oaNTOU0D5Pa0AIkSRc5cU9sFY6nvYpjszyCI18v9yH1tMU8/9pv\nwMnj9yNpI1DDy+5/2F9YvCcoDIzs7qlvnR9Eu7boL0vj34/T27Rzlx1pUcEEH/wL\nFJie32KMHCzdQW8pUH2dzF87yCt3YBsYCCaubctwWuGN5oK5Ywuk7sQY23nDWDe/\n9iMid4LCmpv9YMb+PLs6QYWNr/+yJ8Nu+5/kGPhJrWx4YgnIQ3l0HL0DkF2X21MC\n6xdA044/AgMBAAECggEAKC/GXrWoAQd9iPrPSF/QMN4aglWT6zm/jCCMxZdMhy/4\nCv7qjFPz8n9fnrz42DoCt1EHgDu0SMDEcsiXEwUEm0r9m35oWDe5CBoYzvT5td3h\nTG8zYKpANdgTBycsLM/AnK6CFj/Y4MbE86l/G9QVM6J0sF9mpvB0O9RrgKpGi32i\nraDWrDKGimDpCD//959pqH5zSOiNzqx32LgqGjbiVEBO9adv+0HSbjC9f0dCKCZD\nZ56GTm3kH9b0bqrVfGVPW5Cg+3ffK4IqqXMWKFpAsK/wPuQxo4w/DrafWL3E7JVf\nU/TpTiLG5BOk3i4JYh1bbALirbKpBUe+srqaPcCL0QKBgQD2DUeSqmJHTRql527A\nmyW9dCr1Rt+eDNPau/VLVhgCflLbqN5Ucf94dOXCT84ABZKinRSHdDVmfW/I8vah\ncPwh+uJWelXnIt9x3zGW3UMmiRsCZeiet8OCGIsG1ZWIXTApgPXpSkPvczW9obzQ\naP3Vr37dW3uD5aWl4IBP9eYcrwKBgQDn71GLfz+15li13ZAKIov3Md0pZPXMnOm5\nH7Y5suOCstHndA/GqRs5fQj8U60WD1f5IKEAndYCICu80NH/Abl2pA68Hw+sL+tc\nrQpI9Yg8vevgu3u+JkxxgKuVbjOAEUIZSfHhkW8VqybfTavf+fImqH7UaK77ptE2\nNWcgxmircQKBgQCIphVi2eec67BqBR8YLtIF5rdY4xSb5UnfR9XSEi1hbSC9R4q6\nYVldX6aehM3Ga1Hlp9FX7O0fT3i+pFjeji4o/Pmox2Zf6Jkp16flvlpl021BprFL\nPImC/fhwQjw6sG5oDmwENS+Hk3d8Ko//OuAGReHyM7VkKi0V85mvTsSOlwKBgHIm\ncAznCPU+tIR10pGaZSa5bO8VmIAm7kVFnUsShzTpS7PNhIIy8oo9xrFhgXus+5BK\nhdMm25BaQwx//gqyz5PbtMDTzMPjJcSMCdbUuUOj+ba2r3Vrpg3q1QgLn981H0IR\nCbIKARE6FjyrHp9yhcKPBTUHfK+wb6FtcR9JZ3SRAoGBAIOFI3dpcCEp7Gi7E2qy\nYYuM53QRzHcorQ99P3a6BCpsC27/lbgngjaxfyu6qHrjl8GaOX4vgQAUBJvaceir\namjCGfaxiWCwQrceeODzB1wjpqdb6sk9+ND5sVp+8+XCIs0vaw1KUBqDZYMdtJj1\nKhxp+AFBNVgUXQM2FPLPYFy0\n-----END PRIVATE KEY-----\n",
+  "client_email": "elibra-mobile@skin-me.iam.gserviceaccount.com",
+  "client_id": "118166091182932166449",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/elibra-mobile%40skin-me.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

@@ -4,6 +4,7 @@ from app.models import *
 from app.extensions import db
 from cloudinary.uploader import upload
 from app.views.auth.form import *
+from google_drive import upload_file
 
 main = Blueprint('main', __name__)
 
@@ -216,10 +217,9 @@ def book():
                 cloudinary_response_image = upload(book_image)
                 image_url = cloudinary_response_image['secure_url']
                 
-                # Upload PDF to Cloudinary
-                cloudinary_response_pdf = upload(book_pdf)
-                pdf_url = cloudinary_response_pdf['secure_url']
-
+                # Upload PDF to Google Drive and get secure URL
+                pdf_url = upload_file(book_pdf)
+                
                 # Create a new book entry
                 new_book = Book(
                     title=title,

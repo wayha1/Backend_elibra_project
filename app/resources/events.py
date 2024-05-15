@@ -243,7 +243,7 @@ class UserBookAPI(Resource):
         db.session.add(userbook)
         db.session.commit()
 
-        return userbook, 201
+        return userbook, 200
     
 @ns_events.route('/userbook/<int:id>')
 class UserBookDetailAPI(Resource):

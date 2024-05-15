@@ -7,7 +7,7 @@
     -webkit-line-clamp: 3; /* number of lines to show */
     -webkit-box-orient: vertical;
   }
-  
+
   .pdf-link {
     max-width: 100px; /* Adjust the max-width as needed */
     overflow: hidden;
@@ -47,12 +47,12 @@
       <td>{{ book.category.name }}</td>
       <td>{{ book.author.author_name }}</td>
       <td class="pdf-link">
-        <a href="{{ book.book_pdf }}">{{ book.book_pdf }}</a>
+        <iframe type="pdf" src="{{ book.book_pdf }}" style="max-width: 100px"></iframe>
       </td>
       <td>
-        <img src="{{ book.book_image }}" alt="{{ book.book_image }}" style="max-width: 100px">
+        <img src="{{ book.book_image }}" alt="{{ book.book_image }}" style="max-width: 100px" />
       </td>
-      <td class="d-flex"> 
+      <td class="d-flex">
         <form action="{{ url_for('main.edit_book', id=book.id) }}" method="get">
           <button type="submit" class="btn btn-primary mr-1">Edit</button>
         </form>

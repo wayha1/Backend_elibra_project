@@ -43,7 +43,7 @@ class BookForm(FlaskForm):
     author = SelectField('Author', coerce=int, validators=[DataRequired()])
     category = SelectField('Category', coerce=int, validators=[DataRequired()])
     image = FileField('Upload Book Image', validators=[FileAllowed(['jpg', 'png', 'jpeg', 'gif'])])
-    file = FileField('Upload Book File (PDF)', validators=[FileRequired(), FileAllowed(['pdf'])])  # Ensure PDF file is required and allowed
+    file = FileField('Upload Book File (PDF)', validators=[FileRequired(), FileAllowed(['pdf'])]) 
     submit = SubmitField('Add Book')
 
     def __init__(self, *args, **kwargs):
